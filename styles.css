@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+img {
+    width: 120px;
+}
+
+#hero {
+    background: url("images/salvador_sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0px 60px;
+    margin: 0 auto 0px;
+}
+
+#hero h1 {
+    color: #ffffff;
+    background: #B32203;
+    width: 220px;
+    padding: 12px 24px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin: 0 auto 80px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#hero h2 {
+    color: #ffffff;
+    background: rgba(105, 222, 4, 0.8);
+    display: block;
+    margin: 200px auto 20px;
+    padding: 4x 6px;
+    border-radius: 8px;
+    line-height: 50px;
+    width: 80%;
+    text-shadow: 1px 1px 2px black;
+}
+
+#activities {
+    background: linear-gradient(#FED74A, #FEE380);
+    padding: 0 auto;
+    border-top: 10px solid #69DE04;
+}
+
+#activities h2 {
+    margin: 0px;
+    padding: 20px 0px 0px;;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+    font-size: 28px;
+}
+
+.activities_list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.activity_item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 8px;
+}
+
+.activity_item img {
+    border-radius: 50%;
+    border: 6px solid #B32203;
+}
+
+.activity_item h4 {
+    background: #B32203;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#guide {
+    background: linear-gradient(#FEE380, #FEE792);
+    padding: 10px auto;
+    height: 200px;
+}
+
+#guide h3 {
+    margin: 0;
+}
+
+.guide_card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+    margin: 0px auto 0;
+    justify-content: space-around;
+    background: #69de04;
+    padding: 20px;
+    border-radius: 4px;
+    border-bottom: 8px solid #4988da;
+}
+
+.guide_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+guide_info h3, 
+guide_info p, 
+guide_info h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.guide_img img {
+    border-radius: 10%;
+    padding: 0px;
+}
